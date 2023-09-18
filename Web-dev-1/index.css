@@ -19,8 +19,11 @@ body{
 .side-nav{
     width: 25%;
     background-color: azure;
+    float: left;
+    height: 500px;
 }
 
 .main-body{
     width: 75%;
+    height: 500px;
 }
