@@ -14,8 +14,27 @@ document.addEventListener("DOMContentLoaded", function(){
         console.log(activityTitle)
         console.log(description)
 
+        const activityItem = document.createElement("div")
+        activityItem.classList.add("activity-item")
+        activityItem.innerHTML = `<h3>${activityTitle}</h3><p>${description}</p>`;
+
+        sideNav.appendChild(activityItem);
+
         form.reset()
+
+
+
         
 
     });
 });
+
+
+
+// Create a new element to display the activity information
+const activityItem = document.createElement("div");
+activityItem.classList.add("activity-item");
+activityItem.innerHTML = `<h3>${activityTitle}</h3><p>${description}</p>`;
+
+// Append the new activity item to the side navigation
+sideNav.appendChild(activityItem);
