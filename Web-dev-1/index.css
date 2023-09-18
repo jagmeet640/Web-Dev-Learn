@@ -32,3 +32,29 @@ body{
     width: 75%;
     height: 500px;
 }
+
+.form-element{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: turquoise;
+    border-radius: 3px;
+}
+
+.input-label{
+    padding: 10px;
+}
+
+.input-box{
+    padding: 10px;
+
+}
+
+.submit-button{
+    float: left;
+    padding: 10px;
+    border:none;
+    border-radius: 3px;
+    background-color: azure;
+    font-size: 15px;
+}
