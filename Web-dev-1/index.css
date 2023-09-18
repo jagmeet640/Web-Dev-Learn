@@ -7,6 +7,7 @@ body{
     align-items: center;
     justify-content: center;
     height: 20%;
+    
     background-color: bisque;
     color: black;
 }
@@ -17,6 +18,8 @@ body{
 }
 
 .side-nav{
+    display: flex;
+    justify-content: center;
     width: 25%;
     background-color: azure;
     float: left;
@@ -24,6 +27,8 @@ body{
 }
 
 .main-body{
+    display: flex;
+    justify-content: center;
     width: 75%;
     height: 500px;
 }
