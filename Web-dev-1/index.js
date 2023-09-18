@@ -29,8 +29,10 @@ document.addEventListener("DOMContentLoaded", function(){
 
 // Create a new element to display the activity information
 const activityItem = document.createElement("div");
-activityItem.classList.add("activity-item");
-activityItem.innerHTML = `<<h3>${activityTitle}</h3><p>${description}</p>`;
+activityItem.setAttribute("class","activity-show")
+activityItem.classList.add("activity-show");
+activityItem.innerHTML = `${activityTitle}`;
+
 
 // Append the new activity item to the side navigation
 sideNav.appendChild(activityItem);

@@ -19,7 +19,7 @@ body{
 
 .side-nav{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     width: 25%;
     background-color: black;
     color: white;
@@ -61,6 +61,11 @@ body{
 }
 
 .activity-show{
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    border: 1px yellow solid;
     height: 5%;
     width: 100%;
     background-color: azure;
