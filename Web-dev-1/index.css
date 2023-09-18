@@ -5,6 +5,7 @@ body{
 .NavBar{
     display: flex;
     align-items: center;
+    justify-content: center;
     height: 20%;
     background-color: bisque;
     color: black;
