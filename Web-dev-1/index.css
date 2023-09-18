@@ -1,0 +1,25 @@
+body{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.NavBar{
+    display: flex;
+    align-items: center;
+    height: 20%;
+    background-color: bisque;
+    color: black;
+}
+
+.container{
+    background-color: beige;
+    height: 80%;
+}
+
+.side-nav{
+    width: 25%;
+    background-color: azure;
+}
+
+.main-body{
+    width: 75%;
+}
