@@ -24,6 +24,7 @@ body{
 .side-nav{
     display: flex;
     flex-direction: column;
+    align-items: center;
     width: 25%;
     border-radius: 4px;
     background-color: black;
@@ -89,7 +90,7 @@ body{
     align-items: center;
     border: 1px yellow solid;
     height: 5%;
-    width: 100%;
+    width: 90%;
     background-color: azure;
     color: black;
     font-size: 15px;
