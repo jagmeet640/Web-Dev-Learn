@@ -1,11 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
+import ListGroup from './Components/ListGroup';
 
 function App() {
   const name = 'jagmeet';
   return (
-    <>
-    </>
+    <div>
+      <ListGroup/>
+    </div>
   );
 }
 
