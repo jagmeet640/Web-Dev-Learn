@@ -2,6 +2,10 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+npx create-react-app name-of-app
+
+### `this is commandline code to create a new app`
+
 ## Available Scripts
 
 In the project directory, you can run:
